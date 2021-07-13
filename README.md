@@ -40,8 +40,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Jump Box | Gateway  | 10.0.0.4   | Linux            |
 | Web-1    |Webserver | 10.0.0.9   | Linux            |
 | Web-2    |Webserver | 10.0.0.8   | Linux            |
-| Elk-New-
-  Server   |Monitoring| 10.1.0.4   | Linux            |
+| Elk-New-Server   |Monitoring| 10.1.0.4   | Linux            |
 
 ### Access Policies
 
@@ -61,8 +60,7 @@ A summary of the access policies in place can be found in the table below:
 | Jump Box |         Yes         | 40.122.30.120
 | Web-1    |         No          | 10.0.0.4             |
 | Web-2    |         No          | 10.0.0.4             |
-| Elk-New-
-|  Server  |         No          | 10.0.0.4             |
+| Elk-New-Server  |         No          | 10.0.0.4             |
 
 
 
