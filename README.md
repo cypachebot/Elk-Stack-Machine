@@ -71,11 +71,11 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - The main advantage of automating configuration with Ansible is that it allows for accuracy and minimize errors and software can be updated to the most current version allowing for high availability of the network. 
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+- The Ansible Playbook allows for automation of the different functions of the Elk Stack Server 
+- Docker install via Ansible Playbook allows for the containers and machines to work cohesively
+- Downloading the images allows for the creation of containers 
 
-The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+The following screenshot displays the result of running `docker ps -a` after successfully configuring the ELK instance.
 
 ![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
 
