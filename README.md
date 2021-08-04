@@ -75,9 +75,9 @@ The playbook implements the following tasks:
 - Docker install via Ansible Playbook allows for the containers and machines to work cohesively
 - Downloading the images allows for the creation of containers 
 
-The following screenshot displays the result of running `docker ps -a` after successfully configuring the ELK instance.
+The following screenshot displays the result of running `docker ps -a` after successfully configuring the ELK instance:
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+https://github.com/cypachebot/Elk-Stack-Machine/blob/main/docker_ps_output.PNG
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
