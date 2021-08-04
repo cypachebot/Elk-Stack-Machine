@@ -47,12 +47,12 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the jump box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
--	Port: 22
--	Port_5601
+- 40.122.30.120
 
 Machines within the network can only be accessed by the jump box.
--The Jump Box Provisioner can access The Elk Machine: 
-IP Address: 40.122.30.120
+-The Jump Box Provisioner can access The Elk Machine by:
+-Port: 22
+-Port_5601
 
 A summary of the access policies in place can be found in the table below:
 | Name     | Publicly Accessible | Allowed IP Addresses |
@@ -81,12 +81,11 @@ https://github.com/cypachebot/Elk-Stack-Machine/blob/main/docker_ps_output.PNG
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- Elk-New-Server IP 52.249.250.94 
-- Web-1 IP 52.176.157.135
-- Web-2 IP 52.176.157.135
+- Web-1 IP 10.0.0.9
+- Web-2 IP 10.0.0.8
 
 We have installed the following Beats on these machines:
-- _TODO: Specify which Beats you successfully installed_
+- Beats packet elasticsearch-7.6.2-amd64.deb
 
 These Beats allow us to collect the following information from each machine:
 - _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
