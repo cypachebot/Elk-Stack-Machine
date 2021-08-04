@@ -81,7 +81,9 @@ https://github.com/cypachebot/Elk-Stack-Machine/blob/main/docker_ps_output.PNG
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _TODO: List the IP addresses of the machines you are monitoring_
+- Elk-New-Server IP 52.249.250.94 
+- Web-1 IP 52.176.157.135
+- Web-2 IP 52.176.157.135
 
 We have installed the following Beats on these machines:
 - _TODO: Specify which Beats you successfully installed_
